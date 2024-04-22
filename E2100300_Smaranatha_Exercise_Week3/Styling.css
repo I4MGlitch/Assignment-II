@@ -1,0 +1,110 @@
+.navbar{
+    background-color: red;
+    color: white;
+    display: flex;
+    border-radius: 15px;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    max-height: 75px;
+}
+
+.container{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+}
+
+.navbar-logo{
+    height: 80px;
+    width: auto;
+}
+
+.navbar-icon{
+    margin-left: auto;
+    margin-right: 0;
+    height: 75px;
+    width: auto;
+}
+
+.navbar ul{
+    margin: 0px;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline;
+    margin: 0px;
+}
+
+a:link { 
+    text-decoration: none;
+    color: white; 
+} 
+a:visited { 
+    text-decoration: none;
+    color: white; 
+} 
+a:hover { 
+    text-decoration: underline;
+    font-size: larger;
+} 
+a:active { 
+    font-weight: bold; 
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.chicken{
+    width: 400px;
+    margin-left: 180px;
+}
+
+.btn {
+    display: inline;
+    padding: 15px;
+    border-radius: 15px;
+    max-width: 10px;
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 280px;
+}
+
+.bar{
+    margin-top: 50px;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    display: flex;
+    padding: 5px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.bar-logo{
+    height: 75px;
+    width: auto;
+}
+
+.bar ul{
+    margin: 0px;
+}
+
+.bar li{
+    list-style: none;
+    display: inline;
+    margin: 25px;
+}
+
+.bar a{
+    color: white;
+}
